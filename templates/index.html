@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média do aluno</title>
+    <link rel="stylesheet" href="/static/styles/estilo.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Lançar nota</a> 
+        <a href="/ver_nota"> Ver notas</a>
+    </nav>
+    <div class="lancar_notas">
+        <form action="/index.html" method="post" class="lan_notas">
+        <h2 class="titulo">MÉDIA DO ALUNO</h2>
+        <label class="nome">Nome do aluno:</label> <!--INDICAÇÃO DA DIGITAÇÃO-->
+        <input class="nome" type="text" name="nome_aluno" id="nome_aluno"> <br> <!--DIGITAÇÃO-->
+         
+        <label class="notas" for="">Nota 1:</label> 
+        <input class="notas" type="text" name="nota_um" id="nota_um"> 
+
+        <label class="nota_d"for="">Nota 2:</label> 
+        <input class="nota_d" type="text" name="nota_dois" id="nota_dois"> 
+
+        <label class="nota_t" for="">Nota 3:</label> 
+        <input class="nota_t" type="text" name="nota_tres" id="nota_tres">
+
+        <div>
+            <button type="submit" class="lanca_notas_botao">LANÇAR</button>
+        </div>
+        </form>
+    </div>
+    <div>
+        <img class="estrela_cabecalho" src="/static/assets/estrelaa.png" alt="">
+        <img class="estrela_v_um" src="/static/assets/estrela_ve.png" alt="" width= 200px>
+        <img class="estrela_v_dois" src="/static/assets/estrela_ve.png" alt="" width= 200px>
+    </div>
+</body>
+</html>

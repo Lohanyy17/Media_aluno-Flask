@@ -1,0 +1,6 @@
+Bangchan;5.0;10.0;9.0;8.0;Aprovado
+Duda;9.0;6.0;7.0;7.333333333333333;Aprovado
+Lohany;2.0;3.0;1.0;2.0;Reprovado
+Stefany Macedo ;2.0;5.0;10.0;5.666666666666667;Recuperação
+Stefany Macedo ;10.0;10.0;10.0;10.0;Aprovado
+lohany;10.0;10.0;10.0;10.0;Aprovado

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font-primaria: "montserrat", sans-serif;
+    --font-titulo: "League Gothic", sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fdecdc;
+}
+
+nav {
+    background-color: #7b0005;
+    padding: 20px;
+    text-align: right;
+}
+ 
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 22px;
+    margin: 0 30px;
+    font-weight: bold;
+}
+ 
+nav :hover{
+    background-color:  rgb(211, 181, 181);
+    padding: 2px 2px;
+    border-radius: 5px;
+    color: white;
+}
+ 
+
+.titulo{
+    font-family: var(--font-titulo);
+    font-weight: 72.9px;
+    color: #730000;
+    font-size: 85px;
+    text-align: center;
+}
+
+.lancar_notas{
+    place-items: center;
+    top: 50px;
+    position: relative;
+    font-family: var(--font-primaria);
+    color: #730000;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.nome{
+    top: 20px;
+    position: relative;
+    right: 15px;
+    font-weight: 40px;
+    border-radius: 15px;
+    border-color: #730000;
+    border-width: 3px;
+    padding: 7px;
+    background-color: #fdecdc;
+    width: 300px;
+}
+
+.notas{
+    top: 140px;
+    position: relative;
+    right: 80px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #730000;
+    padding: 7px;
+    background-color: #fdecdc;
+    width: 80px;
+}
+
+.nota_d{
+    top: 140px;
+    position: relative;
+    left: 20px; 
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #730000;
+    padding: 7px;
+    background-color: #fdecdc;
+    width: 80px;
+}
+
+.nota_t{
+    top: 140px;
+    position: relative;
+    left: 130px; 
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #730000;
+    padding: 7px;
+    background-color: #fdecdc;
+    width: 80px;
+}
+
+.estrela_cabecalho{
+    top: -335px;
+    position: relative;
+}
+
+.lanca_notas_botao{
+    top: 300px;
+    position: relative;
+    border-radius: 15px;
+    border-color: #730000;
+    padding: 7px;
+    background-color: #730000;
+    width: 80px;
+    color: #fdecdc;
+    cursor: pointer;
+}
+
+.lanca_notas_botao:hover{
+    background-color: #920206;
+}
+
+.estrela_v_um{
+    top: -170px;
+    left: 290px;
+    position: relative;
+}
+
+.estrela_v_dois{
+    top: -170px;
+    left: 635px;
+    position: relative;
+}
+
+
+
+.ver_nota{
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+}
+
+.estrela_cabecalho_d{
+    position: relative;
+    top: -465px;
+}
+
+.ver_nota h2{
+    font-family: var(--font-titulo);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 72.9px;
+    color: #730000;
+    font-size: 85px;
+}
+
+.ver_notas_tabela{
+    width: 80%;
+    border-collapse: collapse;
+    font-family: var(--font-primaria);
+}
+
+.ver_notas_tabela th, .ver_notas_tabela td{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ver_notas_tabela th {
+    background-color: #920206;
+    font-weight: 600;
+    color: white;
+}
+
+.ver_notas_tabela td {
+    background-color: #fdecdc;
+}
+
+.ver_notas_tabela tr:nth-child(even) {
+    background-color: #fdecdc;
+}
+
+.ver_notas_tabela tr:hover {
+    background-color: #fdecdc;
+}
