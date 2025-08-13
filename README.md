@@ -4,5 +4,5 @@
 
 # Desenvolvimento
 
-![print inicio](/static/assets/mediaprint.jpng)
-![print fim](/static/assets/notasprint.jpng)
+![print inicio](static/assets/mediaprint.jpng)
+![print fim](static/assets/notasprint.jpng)
