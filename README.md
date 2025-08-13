@@ -4,5 +4,5 @@
 
 # Desenvolvimento
 
-!print[print inicio](static/assets/mediaprint.png)
-!print[print fim](static/assets/notasprint.png)
+![print inicio](static/assets/mediaprint.png)
+![print fim](static/assets/notasprint.png)
